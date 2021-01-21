@@ -68,11 +68,11 @@ client.on("message", message => {
         message.channel.send("Ro mat Anuuuu");
     }
 
-    else if (command === "surya") {
+    else if (command === "surya") {                           //Surya
         message.channel.send("Chal anime Dekhte Hai");
     }
 
-    else if (command === "aryan") {
+    else if (command === "aryan") {                            //Aryan
         message.channel.send("Jaa Sreya ke pass Jaaa");
     }
 
