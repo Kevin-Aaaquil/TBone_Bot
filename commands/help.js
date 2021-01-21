@@ -11,6 +11,7 @@ module.exports = {
         message.channel.send("+ping");
         message.channel.send("+riti");
         message.channel.send("+shashi");
+        message.channel.send("+surya");
     }
 }
 
