@@ -28,36 +28,45 @@ client.on("message", message => {
 
     if (command === "help") {                             //Help
         //client.commands.get("help").execute(message, args);
-        message.channel.send("Help me");
+        message.channel.send("These are the following commands I know");
+        message.channel.send("+help");
+        message.channel.send("+anu");
+        message.channel.send("+esha");
+        message.channel.send("+github");
+        message.channel.send("+kriti");
+        message.channel.send("+ping");
+        message.channel.send("+riti");
+        message.channel.send("+shashi");
     }
+}
 
     else if (command === "ping") {                        //Ping Pong
-        message.channel.send("pong!");
-    }
+    message.channel.send("pong!");
+}
 
-    else if (command === "github") {                                     //Github
-        message.channel.send("https://www.github.com/Kevin-Aaaquil");
-    }
+else if (command === "github") {                                     //Github
+    message.channel.send("https://www.github.com/Kevin-Aaaquil");
+}
 
-    else if (command === "riti") {                                        //Riti
-        message.channel.send("Hey Smartass!!!");
-    }
+else if (command === "riti") {                                        //Riti
+    message.channel.send("Hey Smartass!!!");
+}
 
-    else if (command === "kriti") {                  // Kriti
-        message.channel.send("Hello BKJ");
-    }
+else if (command === "kriti") {                  // Kriti
+    message.channel.send("Hello BKJ");
+}
 
-    else if (command === "shashi") {                        // Shashank
-        message.channel.send("Kaisa hai BubbleButt");
-    }
+else if (command === "shashi") {                        // Shashank
+    message.channel.send("Kaisa hai BubbleButt");
+}
 
-    else if (command === "esha") {                                 //Lord
-        message.channel.send("Hello myself, ek weird Banda");
-    }
+else if (command === "esha") {                                 //Lord
+    message.channel.send("Hello myself, ek weird Banda");
+}
 
-    else if (command === "anu") {                            //Anu
-        message.channel.send("Ro mat Anuuuu");
-    }
+else if (command === "anu") {                            //Anu
+    message.channel.send("Ro mat Anuuuu");
+}
 
 
 
