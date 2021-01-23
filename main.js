@@ -49,31 +49,31 @@ client.on("message", message => {
     }
 
     else if (command === "riti") {                                        //Riti
-        message.channel.send("Hey Smartass!!!");
+        message.channel.send("Hey Riti!!!");
     }
 
     else if (command === "kriti") {                  // Kriti
-        message.channel.send("Hello BKJ");
+        message.channel.send("Hey Kriti");
     }
 
     else if (command === "shashi") {                        // Shashank
-        message.channel.send("Kaisa hai BubbleButt");
+        message.channel.send("Hey Shashi");
     }
 
     else if (command === "esha") {                                 //Lord
-        message.channel.send("Hello myself, ek weird Banda");
+        message.channel.send("Hello Lord");
     }
 
     else if (command === "anu") {                            //Anu
-        message.channel.send("Ro mat Anuuuu");
+        message.channel.send("Hello Anu");
     }
 
     else if (command === "surya") {
-        message.channel.send("Chal anime Dekhte Hai");
+        message.channel.send("Tu jaa Anime Dekh Bhadwe");
     }
 
     else if (command === "aryan") {
-        message.channel.send("Jaa Sreya ke pass Jaaa");
+        message.channel.send("Tu Gym jaa Ganndu");
     }
 
 
