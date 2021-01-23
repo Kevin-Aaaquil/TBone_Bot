@@ -74,4 +74,4 @@ client.on("message", message => {
 
 
 
-client.login("token");
+client.login("ODAxMDkyNzQ1NzExNzE0NDA0.YAbpwg.xfzprGFuprmZcKmO8MocB6XsSo8");
