@@ -98,6 +98,7 @@ client.on("message", message => {
         message.channel.send("Command Barbad Behenchod");
 
     //message.channel.send("https://tenor.com/view/slap-angry-kopam-serious-gif-gif-19001058")
+    //Learning
 
 });
 
